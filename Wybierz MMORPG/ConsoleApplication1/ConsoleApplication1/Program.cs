@@ -214,6 +214,49 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            do
+            {
+                Console.WriteLine("\nPreferujesz gry P2P/B2P(pay to play/buy to play) czy F2P(free to play)?\n a) P2P/B2P \n b) F2P \n");
+                odp = (Console.ReadLine());
+                if (odp == "a")
+                {
+                    BD.pkt = BD.pkt + 5;
+                    D3.pkt = D3.pkt + 5;
+                    WoW.pkt = WoW.pkt + 5;
+                    eoo.pkt = eoo.pkt + 5;
+
+                    i = false;
+                }
+                else
+                    if (odp == "b")
+                {
+                    BnS.pkt = BnS.pkt + 5;
+                    Aion.pkt = Aion.pkt + 5;
+                    EVE.pkt = EVE.pkt + 5;
+                    M2.pkt = M2.pkt + 5;
+                    Mrg.pkt = Mrg.pkt + 5;
+                    DN.pkt = DN.pkt + 5;
+                    L2.pkt = L2.pkt + 5;
+                    NT.pkt = NT.pkt + 5;
+                    TERA.pkt = TERA.pkt + 5;
+                    WoT.pkt = WoT.pkt + 5;
+                    Esw.pkt = Esw.pkt + 5;
+                    pkmn.pkt = pkmn.pkt + 5;
+                    Tibia.pkt = Tibia.pkt + 5;
+                    ToS.pkt = ToS.pkt + 5;
+                    MS.pkt = MS.pkt + 5;
+                    AE.pkt = AE.pkt + 5;
+                    vd.pkt = vd.pkt + 5;
+                    i = false;
+
+                }
+                else
+                {
+                    Console.WriteLine("\nnie ma takiej odpowiedzi! odpowiedz jeszcze raz.\n");
+                }
+            }
+            while (i == true);
+            i = true;
         }
     }
 }
