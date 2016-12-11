@@ -145,7 +145,75 @@ namespace ConsoleApplication1
             Console.WriteLine("Witaj {0}.\nWlaśnie uruchomiłeś program który pomoże Ci znaleźć MMORPG dobrane pod Twój gust.", a);
             Console.WriteLine("Zobaczysz teraz kilka pytań.\nOdpowiedz na nie wpisując a,b lub c, zależnie od Twoich upodobań :).\n");
 
+            do
+            {
+                Console.WriteLine("\nTwój komputer jest stary czy z wyższej półki?\n a) stary \n b) z wyższej półki \n c) Przeciętny.\n");
+                odp = (Console.ReadLine());
+                if (odp == "a")
+                {
+                    BnS.pkt = BnS.pkt + 0;
+                    BD.pkt = BD.pkt + 0;
+                    Aion.pkt = Aion.pkt + 0;
+                    EVE.pkt = EVE.pkt + 0;
+                    M2.pkt = M2.pkt + 8;
+                    Mrg.pkt = Mrg.pkt + 10;
+                    DN.pkt = DN.pkt + 7;
+                    L2.pkt = L2.pkt + 2;
+                    D3.pkt = D3.pkt + 1;
+                    NT.pkt = NT.pkt + 8;
+                    TERA.pkt = TERA.pkt + 1;
+                    WoT.pkt = WoT.pkt + 1;
+                    WoW.pkt = WoW.pkt + 4;
+                    eoo.pkt = eoo.pkt + 3;
+                    Esw.pkt = Esw.pkt + 7;
+                    pkmn.pkt = pkmn.pkt + 10;
+                    Tibia.pkt = Tibia.pkt + 10;
+                    ToS.pkt = ToS.pkt + 4;
+                    MS.pkt = MS.pkt + 3;
+                    AE.pkt = AE.pkt + 5;
+                    vd.pkt = vd.pkt + 1;
+                    i = false;
+                }
+                else
+                    if (odp == "b")
+                {
+                    BnS.pkt = BnS.pkt + 8;
+                    BD.pkt = BD.pkt + 9;
+                    Aion.pkt = Aion.pkt + 8;
+                    EVE.pkt = EVE.pkt + 8;
+                    M2.pkt = M2.pkt + 2;
+                    Mrg.pkt = Mrg.pkt + 1;
+                    DN.pkt = DN.pkt + 2;
+                    L2.pkt = L2.pkt + 6;
+                    D3.pkt = D3.pkt + 7;
+                    NT.pkt = NT.pkt + 2;
+                    TERA.pkt = TERA.pkt + 8;
+                    WoT.pkt = WoT.pkt + 8;
+                    WoW.pkt = WoW.pkt + 3;
+                    eoo.pkt = eoo.pkt + 8;
+                    Esw.pkt = Esw.pkt + 8;
+                    pkmn.pkt = pkmn.pkt + 1;
+                    Tibia.pkt = Tibia.pkt + 1;
+                    ToS.pkt = ToS.pkt + 5;
+                    MS.pkt = MS.pkt + 5;
+                    AE.pkt = AE.pkt + 5;
+                    vd.pkt = vd.pkt + 5;
+                    i = false;
 
+                }
+                else
+                    if (odp == "c")
+                {
+
+                    i = false;
+                }
+                else
+                {
+                    Console.WriteLine("\nnie ma takiej odpowiedzi! odpowiedz jeszcze raz.\n");
+                }
+            }
+            while (i == true);
+            i = true;
         }
     }
 }
