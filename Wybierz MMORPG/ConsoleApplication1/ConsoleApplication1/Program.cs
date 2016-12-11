@@ -788,6 +788,29 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            int[] T;
+            T = new int[21];
+            T[0] = BnS.pkt;
+            T[1] = BD.pkt;
+            T[2] = Aion.pkt;
+            T[3] = EVE.pkt;
+            T[4] = M2.pkt;
+            T[5] = Mrg.pkt;
+            T[6] = DN.pkt;
+            T[7] = L2.pkt;
+            T[8] = D3.pkt;
+            T[9] = NT.pkt;
+            T[10] = TERA.pkt;
+            T[11] = WoT.pkt;
+            T[12] = WoW.pkt;
+            T[13] = eoo.pkt;
+            T[14] = Esw.pkt;
+            T[15] = pkmn.pkt;
+            T[16] = Tibia.pkt;
+            T[17] = ToS.pkt;
+            T[18] = MS.pkt;
+            T[19] = AE.pkt;
+            T[20] = vd.pkt;
         }
     }
 }
