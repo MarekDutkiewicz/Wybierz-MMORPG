@@ -860,6 +860,29 @@ namespace ConsoleApplication1
             T3[19] = AE.opis;
             T3[20] = vd.opis;
 
+            string[] T4;
+            T4 = new string[21];
+            T4[0] = BnS.StrInt;
+            T4[1] = BD.StrInt;
+            T4[2] = Aion.StrInt;
+            T4[3] = EVE.StrInt;
+            T4[4] = M2.StrInt;
+            T4[5] = Mrg.StrInt;
+            T4[6] = DN.StrInt;
+            T4[7] = L2.StrInt;
+            T4[8] = D3.StrInt;
+            T4[9] = NT.StrInt;
+            T4[10] = TERA.StrInt;
+            T4[11] = WoT.StrInt;
+            T4[12] = WoW.StrInt;
+            T4[13] = eoo.StrInt;
+            T4[14] = Esw.StrInt;
+            T4[15] = pkmn.StrInt;
+            T4[16] = Tibia.StrInt;
+            T4[17] = ToS.StrInt;
+            T4[18] = MS.StrInt;
+            T4[19] = AE.StrInt;
+            T4[20] = vd.StrInt;
         }
     }
 }
