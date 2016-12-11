@@ -895,6 +895,10 @@ namespace ConsoleApplication1
                     index = j;
                 }
             }
+            Console.WriteLine("\nCiekawy gust. Program znalazł już dla Ciebie idealną grę!\n Nazywa się ona {0}!", T2[index]);
+            Console.WriteLine("A tutaj króciutki opis gry i uniwersum:\n\n {0}", T3[index]);
+            Console.WriteLine("\nStrona internetowa: {0}\n\nDzięki za skorzystanie z programu, {1} :)", T4[index], a);
+            Console.ReadKey();
         }
     }
 }
