@@ -396,6 +396,69 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            do
+            {
+                Console.WriteLine("\nWolisz dobrą i 'świeżą' grafikę czy jesteś fanem retro?\n a) wolę grafikę szczegółową \n b) wolę grafikę retro.\n");
+                odp = (Console.ReadLine());
+                if (odp == "a")
+                {
+                    BnS.pkt = BnS.pkt + 8;
+                    BD.pkt = BD.pkt + 10;
+                    Aion.pkt = Aion.pkt + 8;
+                    EVE.pkt = EVE.pkt + 10;
+                    M2.pkt = M2.pkt + 4;
+                    Mrg.pkt = Mrg.pkt + 6;
+                    DN.pkt = DN.pkt + 2;
+                    L2.pkt = L2.pkt + 6;
+                    D3.pkt = D3.pkt + 6;
+                    NT.pkt = NT.pkt + 6;
+                    TERA.pkt = TERA.pkt + 5;
+                    WoT.pkt = WoT.pkt + 8;
+                    WoW.pkt = WoW.pkt - 1;
+                    eoo.pkt = eoo.pkt + 3;
+                    Esw.pkt = Esw.pkt + 1;
+                    pkmn.pkt = pkmn.pkt + 3;
+                    Tibia.pkt = Tibia.pkt + 0;
+                    ToS.pkt = ToS.pkt + 2;
+                    MS.pkt = MS.pkt + 6;
+                    AE.pkt = AE.pkt + 4;
+                    vd.pkt = vd.pkt + 2;
+                    i = false;
+
+                }
+                else
+                if (odp == "b")
+                {
+                    BnS.pkt = BnS.pkt - 1;
+                    BD.pkt = BD.pkt - 1;
+                    Aion.pkt = Aion.pkt - 1;
+                    EVE.pkt = EVE.pkt - 1;
+                    M2.pkt = M2.pkt + 4;
+                    Mrg.pkt = Mrg.pkt + 4;
+                    DN.pkt = DN.pkt + 2;
+                    L2.pkt = L2.pkt - 1;
+                    D3.pkt = D3.pkt - 1;
+                    NT.pkt = NT.pkt + 4;
+                    TERA.pkt = TERA.pkt - 5;
+                    WoT.pkt = WoT.pkt - 4;
+                    WoW.pkt = WoW.pkt + 1;
+                    eoo.pkt = eoo.pkt - 3;
+                    Esw.pkt = Esw.pkt - 1;
+                    pkmn.pkt = pkmn.pkt + 3;
+                    Tibia.pkt = Tibia.pkt + 4;
+                    ToS.pkt = ToS.pkt + 2;
+                    MS.pkt = MS.pkt + 3;
+                    AE.pkt = AE.pkt + 4;
+                    vd.pkt = vd.pkt + 2;
+                    i = false;
+                }
+                else
+                {
+                    Console.WriteLine("Nie ma takiej odpowiedzi! odpowiedz jeszcze raz.\n");
+                }
+            }
+            while (i == true);
+            i = true;
         }
     }
 }
