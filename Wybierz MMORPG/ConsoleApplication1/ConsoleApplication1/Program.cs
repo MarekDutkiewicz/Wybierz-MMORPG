@@ -135,6 +135,17 @@ namespace ConsoleApplication1
             vd.opis = "osadzona w klimatach dark fantasy gra akcji z elementami RPG, wyprodukowana przez studio Nexon. Gracz kieruje poczynaniami bohatera, który próbuje rozwikłać zagadkę nękanego przez potwory świata i znaleźć drogę do mitycznej, rajskiej krainy - Erinn. Tytuł oferuje realistyczny model walki, bazujący na możliwościach silnika Source.";
             vd.StrInt = "vindictus.nexoneu.com/";
             vd.dwlp = "NEXON";
+
+            bool i;
+            i = true;
+            string a, odp;
+
+            Console.WriteLine("Witaj. Podaj swoje imię.");
+            a = Console.ReadLine();
+            Console.WriteLine("Witaj {0}.\nWlaśnie uruchomiłeś program który pomoże Ci znaleźć MMORPG dobrane pod Twój gust.", a);
+            Console.WriteLine("Zobaczysz teraz kilka pytań.\nOdpowiedz na nie wpisując a,b lub c, zależnie od Twoich upodobań :).\n");
+
+
         }
     }
 }
