@@ -835,6 +835,31 @@ namespace ConsoleApplication1
             T2[18] = MS.nazwa;
             T2[19] = AE.nazwa;
             T2[20] = vd.nazwa;
+
+            string[] T3;
+            T3 = new string[21];
+            T3[0] = BnS.opis;
+            T3[1] = BD.opis;
+            T3[2] = Aion.opis;
+            T3[3] = EVE.opis;
+            T3[4] = M2.opis;
+            T3[5] = Mrg.opis;
+            T3[6] = DN.opis;
+            T3[7] = L2.opis;
+            T3[8] = D3.opis;
+            T3[9] = NT.opis;
+            T3[10] = TERA.opis;
+            T3[11] = WoT.opis;
+            T3[12] = WoW.opis;
+            T3[13] = eoo.opis;
+            T3[14] = Esw.opis;
+            T3[15] = pkmn.opis;
+            T3[16] = Tibia.opis;
+            T3[17] = ToS.opis;
+            T3[18] = MS.opis;
+            T3[19] = AE.opis;
+            T3[20] = vd.opis;
+
         }
     }
 }
