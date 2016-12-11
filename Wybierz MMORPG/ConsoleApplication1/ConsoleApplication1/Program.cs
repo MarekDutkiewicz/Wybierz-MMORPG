@@ -887,6 +887,14 @@ namespace ConsoleApplication1
 
             gra = T[0];
             index = 0;
+            for (j = 1; j < T.Length; j++)
+            {
+                if (gra < T[j])
+                {
+                    gra = T[j];
+                    index = j;
+                }
+            }
         }
     }
 }
