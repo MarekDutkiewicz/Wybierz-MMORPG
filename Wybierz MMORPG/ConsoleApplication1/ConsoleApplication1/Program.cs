@@ -726,6 +726,68 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            do
+            {
+                Console.WriteLine("\nczy w grze w którą chcesz grać crafting powinien odgrywać ważną rolę? \n a) tak\n b) nie\n");
+                odp = (Console.ReadLine());
+                if (odp == "a")
+                {
+                    BnS.pkt = BnS.pkt + 5;
+                    BD.pkt = BD.pkt + 5;
+                    Aion.pkt = Aion.pkt + 5;
+                    EVE.pkt = EVE.pkt + 4;
+                    M2.pkt = M2.pkt - 5;
+                    Mrg.pkt = Mrg.pkt - 5;
+                    DN.pkt = DN.pkt + 5;
+                    L2.pkt = L2.pkt + 5;
+                    D3.pkt = D3.pkt + 3;
+                    NT.pkt = NT.pkt - 6;
+                    TERA.pkt = TERA.pkt + 2;
+                    WoT.pkt = WoT.pkt - 8;
+                    WoW.pkt = WoW.pkt - 8;
+                    eoo.pkt = eoo.pkt - 9;
+                    Esw.pkt = Esw.pkt + 8;
+                    pkmn.pkt = pkmn.pkt + 6;
+                    Tibia.pkt = Tibia.pkt + 7;
+                    ToS.pkt = ToS.pkt + 9;
+                    MS.pkt = MS.pkt - 4;
+                    AE.pkt = AE.pkt + 6;
+                    vd.pkt = vd.pkt + 7;
+                    i = false;
+                }
+                else
+                    if (odp == "b")
+                {
+                    BnS.pkt = BnS.pkt - 7;
+                    BD.pkt = BD.pkt - 7;
+                    Aion.pkt = Aion.pkt - 2;
+                    EVE.pkt = EVE.pkt - 4;
+                    M2.pkt = M2.pkt + 5;
+                    Mrg.pkt = Mrg.pkt + 5;
+                    DN.pkt = DN.pkt - 2;
+                    L2.pkt = L2.pkt - 2;
+                    D3.pkt = D3.pkt - 3;
+                    NT.pkt = NT.pkt + 6;
+                    TERA.pkt = TERA.pkt - 2;
+                    WoT.pkt = WoT.pkt + 8;
+                    WoW.pkt = WoW.pkt + 8;
+                    eoo.pkt = eoo.pkt + 9;
+                    Esw.pkt = Esw.pkt - 8;
+                    pkmn.pkt = pkmn.pkt - 6;
+                    Tibia.pkt = Tibia.pkt - 7;
+                    ToS.pkt = ToS.pkt + 9;
+                    MS.pkt = MS.pkt + 4;
+                    AE.pkt = AE.pkt - 6;
+                    vd.pkt = vd.pkt - 7;
+                    i = false;
+                }
+                else
+                {
+                    Console.WriteLine("nie ma takiej odpowiedzi! odpowiedz jeszcze raz.\n");
+                }
+            }
+            while (i == true);
+            i = true;
         }
     }
 }
