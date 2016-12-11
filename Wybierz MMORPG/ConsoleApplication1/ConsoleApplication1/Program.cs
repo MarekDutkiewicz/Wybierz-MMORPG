@@ -139,6 +139,7 @@ namespace ConsoleApplication1
             bool i;
             i = true;
             string a, odp;
+            int gra, j, index;
 
             Console.WriteLine("Witaj. Podaj swoje imię.");
             a = Console.ReadLine();
@@ -883,6 +884,9 @@ namespace ConsoleApplication1
             T4[18] = MS.StrInt;
             T4[19] = AE.StrInt;
             T4[20] = vd.StrInt;
+
+            gra = T[0];
+            index = 0;
         }
     }
 }
