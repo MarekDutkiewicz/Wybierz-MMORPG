@@ -93,6 +93,48 @@ namespace ConsoleApplication1
             eoo.opis = "produkcja należąca do gatunku MMO, w której duży nacisk położono na ogromny, zróżnicowany i w pełni otwarty świat. Gra pozwala inaczej spojrzeć na krainy wykreowane między innymi w takich bestsellerach jak The Elder Scrolls Skyrim.";
             eoo.StrInt = "www.elderscrollsonline.com/";
             eoo.dwlp = "ZeniMax Online";
+
+            Gry Esw = new Gry();
+            Esw.nazwa = "Elsword";
+            Esw.opis = "gra MMO, łącząca elementy side-scrollowej platformówki, bijatyki z rodzaju beat'em up i cRPG. Tytuł wyprodukowany został przez firmę KOG Games. Gracze wcielają się w mieszkańców fantastycznego świata, który staje się celem inwazji potworów. Oprawa wizualna gry utrzymana jest w konwencji komiksu manga.";
+            Esw.StrInt = "www.elsword.pl/";
+            Esw.dwlp = "KOG Studios / w Polsce Gameforge";
+
+            Gry pkmn = new Gry();
+            pkmn.nazwa = "PokeMMO";
+            pkmn.opis = "stworzona przez fanów internetowa wersja gry na Gameboy’a Pokemon Fire Red. Mamy tu do czynienia zarówno z klasyczną kampanią jak i z zabawą z innymi graczami. W grze kreujemy swoją postać, nazywamy ją oraz łapiemy tytułowe pokemony, które będziemy używać w walce. Wszystkie zalety z oryginału zostały przeniesione do świata MMO, a nawet znacznie ulepszone.";
+            pkmn.StrInt = "pokemmo.eu/";
+            pkmn.dwlp = "PokeDEV";
+
+            Gry Tibia = new Gry();
+            Tibia.nazwa = "Tibia";
+            Tibia.opis = "Gra z gatunku MMORPG, utworzona przez czterech niemieckich studentów informatyki: Stephana Börzsönyi, Ulricha Schlotta, Stephana Voglera i Guido Lübke (był zwykłym graczem, który dołączył do zespołu). Obecnym właścicielem praw do tej gry jest firma CipSoft. Myślę że nie trzeba jej przedstawiać nikomu ;)";
+            Tibia.StrInt = "www.tibia.com/news/";
+            Tibia.dwlp = "Cipsoft";
+
+            Gry ToS = new Gry();
+            ToS.nazwa = "Tree of Savior";
+            ToS.opis = "gra MMORPG z Korei Południowej, stworzona jako duchowy spadkobierca Ragnarok Online. Ukazanie akcji w rzucie izometrycznym oraz zręcznościowy model walki sprawiają, że tytuł pod wieloma względami przypomina przedstawiciela gatunku hack’n’slash. Warto też wspomnieć o rozbudowanym systemie rozwoju bohatera, zawierającym 80 różnych klas postaci.";
+            ToS.StrInt = "treeofsavior.com/";
+            ToS.dwlp = "IMC Games";
+
+            Gry MS = new Gry();
+            MS.nazwa = "Maple Strory";
+            MS.opis = "gra komputerowa z gatunku MMORPG, z elementami gry platformowej 2D, wyprodukowana przez koreańską firmę Wizet. Gra utrzymywana jest w konwencji anime fantasy.";
+            MS.StrInt = "maplestory.nexon.net/";
+            MS.dwlp = "NEXON";
+
+            Gry AE = new Gry();
+            AE.nazwa = "Ashen Empires";
+            AE.opis = "gra z rodzaju MMORPG, oferująca średniowieczny świat fantasy, która powstała na podwalinach innego produktu, Dransik. Jedną z mocnych stron Ashen Empires jest możliwość tworzenia przez gracza własnej historii. Nie ma złego czy ";
+            AE.StrInt = "www.ashenempires.com/";
+            AE.dwlp = "TKO Games";
+
+            Gry vd = new Gry();
+            vd.nazwa = "Vindictus";
+            vd.opis = "osadzona w klimatach dark fantasy gra akcji z elementami RPG, wyprodukowana przez studio Nexon. Gracz kieruje poczynaniami bohatera, który próbuje rozwikłać zagadkę nękanego przez potwory świata i znaleźć drogę do mitycznej, rajskiej krainy - Erinn. Tytuł oferuje realistyczny model walki, bazujący na możliwościach silnika Source.";
+            vd.StrInt = "vindictus.nexoneu.com/";
+            vd.dwlp = "NEXON";
         }
     }
 }
