@@ -811,6 +811,30 @@ namespace ConsoleApplication1
             T[18] = MS.pkt;
             T[19] = AE.pkt;
             T[20] = vd.pkt;
+
+            string[] T2;
+            T2 = new string[21];
+            T2[0] = BnS.nazwa;
+            T2[1] = BD.nazwa;
+            T2[2] = Aion.nazwa;
+            T2[3] = EVE.nazwa;
+            T2[4] = M2.nazwa;
+            T2[5] = Mrg.nazwa;
+            T2[6] = DN.nazwa;
+            T2[7] = L2.nazwa;
+            T2[8] = D3.nazwa;
+            T2[9] = NT.nazwa;
+            T2[10] = TERA.nazwa;
+            T2[11] = WoT.nazwa;
+            T2[12] = WoW.nazwa;
+            T2[13] = eoo.nazwa;
+            T2[14] = Esw.nazwa;
+            T2[15] = pkmn.nazwa;
+            T2[16] = Tibia.nazwa;
+            T2[17] = ToS.nazwa;
+            T2[18] = MS.nazwa;
+            T2[19] = AE.nazwa;
+            T2[20] = vd.nazwa;
         }
     }
 }
