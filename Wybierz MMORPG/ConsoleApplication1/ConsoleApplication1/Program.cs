@@ -459,6 +459,96 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            do
+            {
+                Console.WriteLine("\nSzukasz gry nastawionej na pvp czy pve? \n a) pvp \n b) pve \n c) lubię pvp i pve.\n");
+                odp = (Console.ReadLine());
+                if (odp == "a")
+                {
+                    BnS.pkt = BnS.pkt + 4;
+                    BD.pkt = BD.pkt + 5;
+                    Aion.pkt = Aion.pkt + 4;
+                    EVE.pkt = EVE.pkt + 5;
+                    M2.pkt = M2.pkt - 5;
+                    Mrg.pkt = Mrg.pkt + 5;
+                    DN.pkt = DN.pkt + 4;
+                    L2.pkt = L2.pkt + 4;
+                    D3.pkt = D3.pkt + 2;
+                    NT.pkt = NT.pkt + 3;
+                    TERA.pkt = TERA.pkt - 1;
+                    WoT.pkt = WoT.pkt + 8;
+                    WoW.pkt = WoW.pkt + 6;
+                    eoo.pkt = eoo.pkt - 6;
+                    Esw.pkt = Esw.pkt - 3;
+                    pkmn.pkt = pkmn.pkt + 6;
+                    Tibia.pkt = Tibia.pkt + 8;
+                    ToS.pkt = ToS.pkt + 4;
+                    MS.pkt = MS.pkt + 6;
+                    AE.pkt = AE.pkt + 6;
+                    vd.pkt = vd.pkt + 7;
+                    i = false;
+                }
+                else
+                    if (odp == "b")
+                {
+                    BnS.pkt = BnS.pkt + 5;
+                    BD.pkt = BD.pkt + 3;
+                    Aion.pkt = Aion.pkt + 6;
+                    EVE.pkt = EVE.pkt + 1;
+                    M2.pkt = M2.pkt + 4;
+                    Mrg.pkt = Mrg.pkt + 3;
+                    DN.pkt = DN.pkt + 7;
+                    L2.pkt = L2.pkt + 8;
+                    D3.pkt = D3.pkt + 6;
+                    NT.pkt = NT.pkt + 3;
+                    TERA.pkt = TERA.pkt + 5;
+                    WoT.pkt = WoT.pkt - 10;
+                    WoW.pkt = WoW.pkt + 4;
+                    eoo.pkt = eoo.pkt + 5;
+                    Esw.pkt = Esw.pkt + 3;
+                    pkmn.pkt = pkmn.pkt + 6;
+                    Tibia.pkt = Tibia.pkt + 4;
+                    ToS.pkt = ToS.pkt + 2;
+                    MS.pkt = MS.pkt + 1;
+                    AE.pkt = AE.pkt + 4;
+                    vd.pkt = vd.pkt + 6;
+                    i = false;
+
+                }
+                else
+                    if (odp == "c")
+                {
+                    BnS.pkt = BnS.pkt + 5;
+                    BD.pkt = BD.pkt + 9;
+                    Aion.pkt = Aion.pkt + 6;
+                    EVE.pkt = EVE.pkt + 2;
+                    M2.pkt = M2.pkt + 1;
+                    Mrg.pkt = Mrg.pkt + 6;
+                    DN.pkt = DN.pkt + 3;
+                    L2.pkt = L2.pkt + 4;
+                    D3.pkt = D3.pkt + 2;
+                    NT.pkt = NT.pkt + 1;
+                    TERA.pkt = TERA.pkt + 3;
+                    WoT.pkt = WoT.pkt + 1;
+                    WoW.pkt = WoW.pkt + 3;
+                    eoo.pkt = eoo.pkt - 4;
+                    Esw.pkt = Esw.pkt - 3;
+                    pkmn.pkt = pkmn.pkt + 7;
+                    Tibia.pkt = Tibia.pkt + 7;
+                    ToS.pkt = ToS.pkt + 3;
+                    MS.pkt = MS.pkt + 4;
+                    AE.pkt = AE.pkt + 4;
+                    vd.pkt = vd.pkt + 4;
+                    i = false;
+
+                }
+                else
+                {
+                    Console.WriteLine("nie ma takiej odpowiedzi! odpowiedz jeszcze raz.\n");
+                }
+            }
+            while (i == true);
+            i = true;
         }
     }
 }
