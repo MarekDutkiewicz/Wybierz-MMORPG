@@ -638,6 +638,94 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            do
+            {
+                Console.WriteLine("\njesteś typem gracza-samotnika czy wolisz expić w party? \n a) expię sam \n b) expię w party \n c) różnie.\n");
+                odp = (Console.ReadLine());
+                if (odp == "a")
+                {
+                    BnS.pkt = BnS.pkt - 3;
+                    BD.pkt = BD.pkt + 5;
+                    Aion.pkt = Aion.pkt + 2;
+                    EVE.pkt = EVE.pkt - 2;
+                    M2.pkt = M2.pkt + 6;
+                    Mrg.pkt = Mrg.pkt + 5;
+                    DN.pkt = DN.pkt + 3;
+                    L2.pkt = L2.pkt - 2;
+                    D3.pkt = D3.pkt + 4;
+                    NT.pkt = NT.pkt + 4;
+                    TERA.pkt = TERA.pkt - 1;
+                    WoT.pkt = WoT.pkt - 2;
+                    WoW.pkt = WoW.pkt + 3;
+                    eoo.pkt = eoo.pkt + 5;
+                    Esw.pkt = Esw.pkt + 3;
+                    pkmn.pkt = pkmn.pkt + 1;
+                    Tibia.pkt = Tibia.pkt + 7;
+                    ToS.pkt = ToS.pkt + 2;
+                    MS.pkt = MS.pkt + 3;
+                    AE.pkt = AE.pkt - 1;
+                    vd.pkt = vd.pkt + 4;
+                    i = false;
+                }
+                else
+                if (odp == "b")
+                {
+                    BnS.pkt = BnS.pkt + 5;
+                    BD.pkt = BD.pkt + 5;
+                    Aion.pkt = Aion.pkt + 3;
+                    EVE.pkt = EVE.pkt + 10;
+                    M2.pkt = M2.pkt - 3;
+                    Mrg.pkt = Mrg.pkt - 5;
+                    DN.pkt = DN.pkt - 3;
+                    L2.pkt = L2.pkt - 2;
+                    D3.pkt = D3.pkt - 2;
+                    NT.pkt = NT.pkt + 3;
+                    TERA.pkt = TERA.pkt + 6;
+                    WoT.pkt = WoT.pkt - 2;
+                    WoW.pkt = WoW.pkt + 8;
+                    eoo.pkt = eoo.pkt + 8;
+                    Esw.pkt = Esw.pkt + 6;
+                    pkmn.pkt = pkmn.pkt + 3;
+                    Tibia.pkt = Tibia.pkt - 3;
+                    ToS.pkt = ToS.pkt - 5;
+                    MS.pkt = MS.pkt + 6;
+                    AE.pkt = AE.pkt - 2;
+                    vd.pkt = vd.pkt + 2;
+                    i = false;
+                }
+                else
+                if (odp == "c")
+                {
+                    BnS.pkt = BnS.pkt + 3;
+                    BD.pkt = BD.pkt + 7;
+                    Aion.pkt = Aion.pkt + 3;
+                    EVE.pkt = EVE.pkt + 1;
+                    M2.pkt = M2.pkt + 2;
+                    Mrg.pkt = Mrg.pkt + 4;
+                    DN.pkt = DN.pkt + 3;
+                    L2.pkt = L2.pkt + 1;
+                    D3.pkt = D3.pkt + 6;
+                    NT.pkt = NT.pkt - 1;
+                    TERA.pkt = TERA.pkt + 2;
+                    WoT.pkt = WoT.pkt - 2;
+                    WoW.pkt = WoW.pkt - 1;
+                    eoo.pkt = eoo.pkt - 1;
+                    Esw.pkt = Esw.pkt + 2;
+                    pkmn.pkt = pkmn.pkt + 1;
+                    Tibia.pkt = Tibia.pkt + 5;
+                    ToS.pkt = ToS.pkt + 5;
+                    MS.pkt = MS.pkt - 2;
+                    AE.pkt = AE.pkt + 2;
+                    vd.pkt = vd.pkt + 6;
+                    i = false;
+                }
+                else
+                {
+                    Console.WriteLine("nie ma takiej odpowiedzi! odpowiedz jeszcze raz.\n");
+                }
+            }
+            while (i == true);
+            i = true;
         }
     }
 }
